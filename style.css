@@ -1,3 +1,7 @@
+#navbarSupportedContent li, #header img{
+  margin: 0 5vw 0 5vw;
+}
+
 .container-fluid {
   width: 80%;
 }
@@ -8,5 +12,5 @@
 }
 
 .carousel-item img{
-  height: 400px;
+  height: 60vh;
 }
