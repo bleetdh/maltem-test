@@ -1,13 +1,32 @@
-#navbarSupportedContent li, #header img{
+html {
+  background: url(img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  background-color: transparent;
+  color: white;
+}
+
+#header {
+  /*background: none !important;*/
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+#navbarSupportedContent li, #header img {
   margin: 0 5vw 0 5vw;
 }
 
 .container-fluid {
+  margin-top: 20px;
   width: 80%;
 }
 
 #carouselExampleIndicators {
-  width: 50%;
+  width: 50vw;
   margin: 0 auto;
 }
 
